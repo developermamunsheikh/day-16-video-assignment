@@ -1,0 +1,82 @@
+/* Header Css */
+.header{
+    background-color: #2992DE;
+}
+.header img{
+    width:200px;
+    height: 65px;
+}
+.header ul{
+    line-height: 65px;
+    margin-bottom: -5px;
+}
+
+.header ul li{
+    display: inline-block;
+    border-right: 1px solid #ddd;
+    margin-left: -4px;
+}
+.header ul li:first-child{
+    
+    border-left: 1px solid #ddd;
+}
+
+.header ul li a{
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.header ul li a:hover{
+    background-color: #ddd;
+    border-right: 1px solid black;
+}
+.header ul li a:first-child:hover{
+    
+    border-left: 1px solid black;
+}
+/* Banner CSS */
+.banner{
+    background-image: url(./img/pexels-life-of-pix-7974.jpg);
+    padding: 400px 0px;
+    background-size: cover;
+    background-position: center ;
+}
+/* About Css */
+.about{
+    background-color: #DADFE0;
+}
+/* Services CSS */
+.service{
+    background-color: #F9F9F9;
+}
+.service i{
+    font-size: 30px;
+   width: 40px;
+   height: 40px;
+   margin: auto;
+   border-radius: 15px 0px 15px 0px;
+   line-height: 100%;
+   margin-top: 10px;
+}
+.product img{
+    width: 240px;
+}
+/* Product Section */
+.product li{
+    list-style: none;
+    font-weight: 600;
+}
+.product h3{
+    margin-left: 35px;
+}
+/* footer CSs */
+.footer span{
+    line-height: 50px;
+    font-size: 25px;
+}
+.footer p{
+    margin-top: 10px;
+}
